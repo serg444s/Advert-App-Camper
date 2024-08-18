@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectPage } from "../../redux/selectors.js";
 
 const HomePage = lazy(() => import("../../pages/HomePage/HomePage.jsx"));
-// const Catalog = lazy(() => import("../../pages/Catalog/Catalog.jsx"));
+const Catalog = lazy(() => import("../../pages/Catalog/Catalog.jsx"));
 const Favorites = lazy(() => import("../../pages/Favorites/Favorites.jsx"));
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
            <Suspense fallback={<Loader/>}>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/catalog" element={<Catalog />} /> */}
+          <Route path="/catalog" element={<Catalog />} />
           <Route path="/favorites" element={<Favorites />}/>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

@@ -95,8 +95,12 @@ const CamperModal = ({ item, modalIsOpen, closeModal }) => {
       </div>
       <p className={css.text}>{item.description}</p>
       <div className={css.btn}>
-        <button onClick={onReviews}>Reviews</button>
-        <button onClick={onFeatures}>Features</button>
+        <button onClick={onReviews} className={visible && css.active}>
+          Reviews
+        </button>
+        <button onClick={onFeatures} className={!visible && css.active}>
+          Features
+        </button>
       </div>
       <div className={css.line}></div>
       <div className={css.footermodal}>

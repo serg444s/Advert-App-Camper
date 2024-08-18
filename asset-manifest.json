@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Advert-App-Camper/static/css/main.4f1b9de3.css",
+    "main.css": "/Advert-App-Camper/static/css/main.8746b040.css",
     "main.js": "/Advert-App-Camper/static/js/main.16513140.js",
     "static/css/673.1fd67340.chunk.css": "/Advert-App-Camper/static/css/673.1fd67340.chunk.css",
     "static/js/673.4b1ddec1.chunk.js": "/Advert-App-Camper/static/js/673.4b1ddec1.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/sprite.svg": "/Advert-App-Camper/static/media/sprite.bf05810b0f070673af2e8861d47f2ad8.svg",
     "static/media/404.jpg": "/Advert-App-Camper/static/media/404.ab1ed3fe4267fac86437.jpg",
     "index.html": "/Advert-App-Camper/index.html",
-    "main.4f1b9de3.css.map": "/Advert-App-Camper/static/css/main.4f1b9de3.css.map",
+    "main.8746b040.css.map": "/Advert-App-Camper/static/css/main.8746b040.css.map",
     "main.16513140.js.map": "/Advert-App-Camper/static/js/main.16513140.js.map",
     "673.1fd67340.chunk.css.map": "/Advert-App-Camper/static/css/673.1fd67340.chunk.css.map",
     "673.4b1ddec1.chunk.js.map": "/Advert-App-Camper/static/js/673.4b1ddec1.chunk.js.map",
@@ -26,7 +26,7 @@
     "900.5b766d09.chunk.js.map": "/Advert-App-Camper/static/js/900.5b766d09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f1b9de3.css",
+    "static/css/main.8746b040.css",
     "static/js/main.16513140.js"
   ]
 }

@@ -82,7 +82,7 @@ const CamperItem = ({ item }) => {
       <div className={css.item}>
         <div className={css.title}>
           <h2>{item.name}</h2>
-          <h3>{formatPrice(item.price)}</h3>
+          <h3 className={css.price}>{formatPrice(item.price)}</h3>
           <button
             onClick={() => {
               onFavoriteAdd(item);
@@ -95,7 +95,6 @@ const CamperItem = ({ item }) => {
 
         <div className={css.location}>
           <p className={css.reviews}>
-            {' '}
             <IconSvg width={16} height={16} iconName={'star'} />
             {item.rating} ({item.reviews.length} Reviews)
           </p>
@@ -105,7 +104,7 @@ const CamperItem = ({ item }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconSvg width={16} height={16} iconName={'location'} />
+            <IconSvg width={16} height={16} iconName={'map'} />
             {item.location}
           </a>
         </div>

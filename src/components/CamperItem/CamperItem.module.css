@@ -24,16 +24,16 @@
     line-height: 1.25;
   }
 
-  h3 {
-    margin-left: auto;
-  }
-
   svg {
     width: 24px;
     height: 24px;
     margin-left: 11px;
     cursor: pointer;
   }
+}
+
+.price {
+  margin-left: auto;
 }
 
 .add {
@@ -79,6 +79,11 @@
   gap: 16px;
   margin-bottom: 24px;
   align-items: center;
+  height: 24px;
+
+  svg {
+    margin-right: 4px;
+  }
 }
 
 .wrap {

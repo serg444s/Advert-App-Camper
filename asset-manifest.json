@@ -1,19 +1,26 @@
 {
   "files": {
     "main.css": "/Advert-App-Camper/static/css/main.4f1b9de3.css",
-    "main.js": "/Advert-App-Camper/static/js/main.3b663991.js",
+    "main.js": "/Advert-App-Camper/static/js/main.18f3eb9d.js",
     "static/css/673.1fd67340.chunk.css": "/Advert-App-Camper/static/css/673.1fd67340.chunk.css",
-    "static/js/673.95e4d08a.chunk.js": "/Advert-App-Camper/static/js/673.95e4d08a.chunk.js",
+    "static/js/673.4b1ddec1.chunk.js": "/Advert-App-Camper/static/js/673.4b1ddec1.chunk.js",
+    "static/css/698.d8a02bf5.chunk.css": "/Advert-App-Camper/static/css/698.d8a02bf5.chunk.css",
+    "static/js/698.4a5be722.chunk.js": "/Advert-App-Camper/static/js/698.4a5be722.chunk.js",
+    "static/js/430.f92b32c0.chunk.js": "/Advert-App-Camper/static/js/430.f92b32c0.chunk.js",
     "static/media/camper.jpg": "/Advert-App-Camper/static/media/camper.f962e8e4679ff74d0cd4.jpg",
+    "static/media/sprite.svg": "/Advert-App-Camper/static/media/sprite.bf05810b0f070673af2e8861d47f2ad8.svg",
     "static/media/404.jpg": "/Advert-App-Camper/static/media/404.ab1ed3fe4267fac86437.jpg",
     "index.html": "/Advert-App-Camper/index.html",
     "main.4f1b9de3.css.map": "/Advert-App-Camper/static/css/main.4f1b9de3.css.map",
-    "main.3b663991.js.map": "/Advert-App-Camper/static/js/main.3b663991.js.map",
+    "main.18f3eb9d.js.map": "/Advert-App-Camper/static/js/main.18f3eb9d.js.map",
     "673.1fd67340.chunk.css.map": "/Advert-App-Camper/static/css/673.1fd67340.chunk.css.map",
-    "673.95e4d08a.chunk.js.map": "/Advert-App-Camper/static/js/673.95e4d08a.chunk.js.map"
+    "673.4b1ddec1.chunk.js.map": "/Advert-App-Camper/static/js/673.4b1ddec1.chunk.js.map",
+    "698.d8a02bf5.chunk.css.map": "/Advert-App-Camper/static/css/698.d8a02bf5.chunk.css.map",
+    "698.4a5be722.chunk.js.map": "/Advert-App-Camper/static/js/698.4a5be722.chunk.js.map",
+    "430.f92b32c0.chunk.js.map": "/Advert-App-Camper/static/js/430.f92b32c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f1b9de3.css",
-    "static/js/main.3b663991.js"
+    "static/js/main.18f3eb9d.js"
   ]
 }

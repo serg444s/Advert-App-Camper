@@ -46,11 +46,11 @@ const customStyles = {
 
     const ImageGallery = (urls) => {
       if (urls.length > 0 ) {
-        return (urls.map((url, index) => (<div key={index} className={css.imgwrap}><img src={url} alt={`Image ${index + 1}`} className={css.img}/></div>
+        return (urls.map((url, index) => (<div key={index} className={css.imgwrap}><img src={url} alt={`Camper ${index + 1}`} className={css.img}/></div>
           ))
       );
       } else {
-        return <div className={css.imgwrap}><img src="https://www.shutterstock.com/image-vector/no-image-available-vector-illustration-260nw-744886198.jpg" alt ="picture not found" className={css.img}></img></div>
+        return <div className={css.imgwrap}><img src="https://www.shutterstock.com/image-vector/no-image-available-vector-illustration-260nw-744886198.jpg" alt ="camper not found" className={css.img}></img></div>
       }
     };
 
@@ -59,7 +59,7 @@ const customStyles = {
           isOpen={modalIsOpen}
           onRequestClose={closeAndDefolt}
           style={customStyles}
-        >      
+        >
         <div className={css.header}>
         <h2 className={css.name}>{item.name}</h2>
         <button   onClick={closeAndDefolt} className={css.btnclose}>
@@ -69,9 +69,9 @@ const customStyles = {
         <p className={css.reviews}><IconSvg width={16} height={16} iconName={"star"} />
         {item.rating} ({item.reviews.length} Reviews)
         </p>
-<a 
-  href={`${place}/${getLocation(item.location)}`} 
-  target="_blank" 
+<a
+  href={`${place}/${getLocation(item.location)}`}
+  target="_blank"
   rel="noopener noreferrer"
 >
 <IconSvg width={16} height={16} iconName={"location"} />
@@ -95,8 +95,8 @@ const customStyles = {
           </div>
 
         </Modal>
-       
+
     );
   };
-  
+
   export default CamperModal;

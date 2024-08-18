@@ -27,7 +27,7 @@ const CamperItem = ({ item }) => {
   const closeModal = () => {
     setShowModal(false);
   };
-    
+
   const place = "https://www.google.com/maps/place";
 
 
@@ -38,7 +38,7 @@ const CamperItem = ({ item }) => {
     setIsFavorite(newFavoriteStatus);
     localStorage.setItem(`favorite-${item._id}`, JSON.stringify(newFavoriteStatus));
   };
-  
+
   const renderListItems = (obj) => {
         return (<ul className={css.details}>
           <li><IconSvg width={20} height={20} iconName={"adults"}/><p>{`${obj.adults} adults`}</p></li>
@@ -56,7 +56,7 @@ const CamperItem = ({ item }) => {
       <div className={css.container}>
 
         <div className={css.imgwrap}>
-            <img src={item.gallery.length > 0 ? item.gallery[0] : "https://www.shutterstock.com/image-vector/no-image-available-vector-illustration-260nw-744886198.jpg"}/>
+            <img alt={item.name || "camper"} src={item.gallery.length > 0 ? item.gallery[0] : "https://www.shutterstock.com/image-vector/no-image-available-vector-illustration-260nw-744886198.jpg"}/>
         </div>
         <div className={css.item}>
 
@@ -73,9 +73,9 @@ const CamperItem = ({ item }) => {
         {item.rating} ({item.reviews.length} Reviews)</p>
 
 
-        <a 
-  href={`${place}/${getLocation(item.location)}`} 
-  target="_blank" 
+        <a
+  href={`${place}/${getLocation(item.location)}`}
+  target="_blank"
   rel="noopener noreferrer"
 >
 <IconSvg width={16} height={16} iconName={"location"} />

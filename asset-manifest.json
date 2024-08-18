@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Advert-App-Camper/static/css/main.8746b040.css",
-    "main.js": "/Advert-App-Camper/static/js/main.82b27ab3.js",
+    "main.js": "/Advert-App-Camper/static/js/main.d36a39f5.js",
     "static/css/673.1fd67340.chunk.css": "/Advert-App-Camper/static/css/673.1fd67340.chunk.css",
     "static/js/673.4b1ddec1.chunk.js": "/Advert-App-Camper/static/js/673.4b1ddec1.chunk.js",
     "static/css/752.64dd93d9.chunk.css": "/Advert-App-Camper/static/css/752.64dd93d9.chunk.css",
-    "static/js/752.a095cee9.chunk.js": "/Advert-App-Camper/static/js/752.a095cee9.chunk.js",
+    "static/js/752.073e2c15.chunk.js": "/Advert-App-Camper/static/js/752.073e2c15.chunk.js",
     "static/css/412.de604baf.chunk.css": "/Advert-App-Camper/static/css/412.de604baf.chunk.css",
     "static/js/412.0c45ff59.chunk.js": "/Advert-App-Camper/static/js/412.0c45ff59.chunk.js",
     "static/js/430.f92b32c0.chunk.js": "/Advert-App-Camper/static/js/430.f92b32c0.chunk.js",
@@ -15,11 +15,11 @@
     "static/media/404.jpg": "/Advert-App-Camper/static/media/404.ab1ed3fe4267fac86437.jpg",
     "index.html": "/Advert-App-Camper/index.html",
     "main.8746b040.css.map": "/Advert-App-Camper/static/css/main.8746b040.css.map",
-    "main.82b27ab3.js.map": "/Advert-App-Camper/static/js/main.82b27ab3.js.map",
+    "main.d36a39f5.js.map": "/Advert-App-Camper/static/js/main.d36a39f5.js.map",
     "673.1fd67340.chunk.css.map": "/Advert-App-Camper/static/css/673.1fd67340.chunk.css.map",
     "673.4b1ddec1.chunk.js.map": "/Advert-App-Camper/static/js/673.4b1ddec1.chunk.js.map",
     "752.64dd93d9.chunk.css.map": "/Advert-App-Camper/static/css/752.64dd93d9.chunk.css.map",
-    "752.a095cee9.chunk.js.map": "/Advert-App-Camper/static/js/752.a095cee9.chunk.js.map",
+    "752.073e2c15.chunk.js.map": "/Advert-App-Camper/static/js/752.073e2c15.chunk.js.map",
     "412.de604baf.chunk.css.map": "/Advert-App-Camper/static/css/412.de604baf.chunk.css.map",
     "412.0c45ff59.chunk.js.map": "/Advert-App-Camper/static/js/412.0c45ff59.chunk.js.map",
     "430.f92b32c0.chunk.js.map": "/Advert-App-Camper/static/js/430.f92b32c0.chunk.js.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.8746b040.css",
-    "static/js/main.82b27ab3.js"
+    "static/js/main.d36a39f5.js"
   ]
 }

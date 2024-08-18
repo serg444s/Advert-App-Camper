@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Advert-App-Camper/static/css/main.7acaea2f.css",
-    "main.js": "/Advert-App-Camper/static/js/main.07d3183d.js",
+    "main.js": "/Advert-App-Camper/static/js/main.dfdbc922.js",
     "index.html": "/Advert-App-Camper/index.html",
     "main.7acaea2f.css.map": "/Advert-App-Camper/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Advert-App-Camper/static/js/main.07d3183d.js.map"
+    "main.dfdbc922.js.map": "/Advert-App-Camper/static/js/main.dfdbc922.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.dfdbc922.js"
   ]
 }

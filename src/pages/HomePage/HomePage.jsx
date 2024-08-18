@@ -3,7 +3,7 @@ import css from "./HomePage.module.css"
 import url from "../../assets/img/camper.jpg"
 
 
-const HomePage = () => { 
+const HomePage = () => {
 
 
     return <>

@@ -3,7 +3,7 @@ import css from "./NotFoundPage.module.css"
 import { useEffect } from "react";
 import url from "../../assets/img/404.jpg"
 
-const NotFoundPage = () => { 
+const NotFoundPage = () => {
 
   const nav = useNavigate();
   const time = 10000;

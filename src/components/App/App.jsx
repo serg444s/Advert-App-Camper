@@ -10,7 +10,7 @@ import { selectPage } from "../../redux/selectors.js";
 
 const HomePage = lazy(() => import("../../pages/HomePage/HomePage.jsx"));
 // const Catalog = lazy(() => import("../../pages/Catalog/Catalog.jsx"));
-// const Favorites = lazy(() => import("../../pages/Favorites/Favorites.jsx"));
+const Favorites = lazy(() => import("../../pages/Favorites/Favorites.jsx"));
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           {/* <Route path="/catalog" element={<Catalog />} /> */}
-          {/* <Route path="/favorites" element={<Favorites />}/> */}
+          <Route path="/favorites" element={<Favorites />}/>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>

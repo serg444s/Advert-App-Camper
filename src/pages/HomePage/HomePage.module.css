@@ -3,7 +3,6 @@
 .home {
   background-image: url(../../assets/img/home.png);
   background-size: cover;
-  height: 696px;
   padding: 260px 64px;
 }
 
@@ -38,4 +37,5 @@
 .link:hover,
 .link:focus {
   background-color: var(--button-hover);
+  border: 1px solid var(--white);
 }

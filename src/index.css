@@ -15,15 +15,13 @@
   --button-hover: #d84343;
   --rating: #ffc531;
   --font-family: 'Inter', sans-serif;
-  :root {
-    --black: #101828;
-    --gray: #475467;
-    --red: #e44848;
-    --hover-red: #d84343;
-    --yellow: #ffc531;
-    --dark-white: #f2f4f7;
-    --white: #f7f7f7;
-  }
+  --black: #101828;
+  --gray: #475467;
+  --red: #e44848;
+  --hover-red: #d84343;
+  --yellow: #ffc531;
+  --dark-white: #f2f4f7;
+  --white: #f7f7f7;
 }
 
 h1,
